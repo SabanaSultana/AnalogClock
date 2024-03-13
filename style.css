@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color:black; /* Set text color to white for better visibility on a black background */
+}
+#clockContainer{
+    /* background-color: red; */
+    /* border: 2px solid red; */
+    height: 40vw;
+    width: 40vw;
+    background: url(Analog\ Clock\ without\ needles.jpg) no-repeat;
+    background-size: 100%;
+    margin: auto;  
+    position:relative;  
+}
+#hour,#minute,#second{
+    position: absolute;
+    background:black;
+    border-radius:10px;
+    border: 1px solid black;
+}
+#hour{
+
+    width: 2.5%;
+    height: 19%;
+    top: 30%;
+    left: 48.3%;
+    transform-origin: bottom;
+    /* display: none; */
+
+}
+
+#minute{
+    width: 1.7%;
+    height: 28%;
+    top: 21%;
+    left: 48.8%;
+    transform-origin: bottom;
+    /* display: none; */
+}
+#second{
+    width:0.7%;
+    height: 34%;
+    top: 16%;
+    left: 49.3%;
+    transform-origin: bottom;
+    /* display: none;  */
+
+}
